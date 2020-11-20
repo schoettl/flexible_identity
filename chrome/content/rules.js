@@ -5,9 +5,7 @@ function fidRules() {
 fidRules.prototype = {
 
 init: function() {
-    this.bundle = Components.classes['@mozilla.org/intl/stringbundle;1'].
-        getService(Components.interfaces.nsIStringBundleService).
-        createBundle('chrome://fid/locale/rules.properties');
+    this.bundle = Services.strings.createBundle('chrome://fid/locale/rules.properties');
     this.mgr = Components.classes['@mozilla.org/messenger/account-manager;1'].
         getService(Components.interfaces.nsIMsgAccountManager)
 

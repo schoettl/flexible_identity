@@ -1,25 +1,25 @@
 {
-  "browser_specific_settings": {
+  "manifest_version": 2,
+  "applications": {
     "gecko": {
-      "id": "fix@axiom",
+      "id": "flexible_identity@axiom",
       "strict_min_version": "68.0"
     }
   },
 
-  "default_locale": "en",
-  "description": "Selects an identity based on the recipients list when sending an email",
-  "manifest_version": 2,
   "name": "Flexible Identity",
+  "description": "Selects an identity based on the recipients list when sending an email",
   "version": "1.0.8",
+  "default_locale": "en",
 
   "icons": {
-    "32": "skin/icon.png"
+    "32": "skin/classic/icon.png"
   },
 
   "legacy": {
     "type": "xul",
     "options": {
-      "page": "chrome://fid/content/options.xul",
+      "page": "chrome://flexible_identity/content/options.xul",
       "open_in_tab": true
     }
   }

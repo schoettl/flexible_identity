@@ -30,9 +30,7 @@ resetNotifyPref: function(prefs) {
 showNotify: function() {
     let notifyBox = document.getElementById('mail-notification-box');
 
-    let bundle = Components.classes['@mozilla.org/intl/stringbundle;1'].
-        getService(Components.interfaces.nsIStringBundleService).
-        createBundle('chrome://fid/locale/rules.properties');
+    let bundle = Services.strings.createBundle('chrome://fid/locale/rules.properties');
 
     let notifyText = bundle.GetStringFromName('fidWelcome');
 

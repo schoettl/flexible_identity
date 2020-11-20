@@ -186,7 +186,7 @@ checkCC: function() {
 
 genericSend: function(aType, aCallback) {
     try {
-        if (aType == nsIMsgCompDeliverMode.SaveAsDraft && !this.checkDraft())
+        if (aType == Components.interfaces.nsIMsgCompDeliverMode.SaveAsDraft && !this.checkDraft())
             return;
     } catch(ex) {Components.utils.reportError(ex);}
 

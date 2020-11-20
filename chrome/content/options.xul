@@ -2,6 +2,7 @@
 
 <?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
 <?xml-stylesheet href="chrome://fid/skin/options.css" type="text/css"?>
+<?xml-stylesheet type="text/css" href="chrome://messenger/skin/messenger.css"?>
 
 <!DOCTYPE window [
   <!ENTITY % dtd1 SYSTEM "chrome://fid/locale/branding.dtd"> %dtd1;
@@ -34,7 +35,7 @@
                     <spacer class="button-gap"/>
 
                     <row flex="1">
-                        <listbox flex="1" id="id-rules" onselect="fidOptions.doSelect();"/>
+                        <richlistbox flex="1" id="id-rules" onselect="fidOptions.doSelect();"/>
 
                         <grid flex="1">
                             <columns>
@@ -44,11 +45,11 @@
                             <rows>
                                 <row align="center">
                                     <label value="&options.rule;"/>
-                                    <textbox id="id-rule" oninput="fidOptions.doUpdateCaption();"/>
+                                    <html:textarea id="id-rule" oninput="fidOptions.doUpdateCaption();"/>
                                 </row>
                                 <row flex="1">
                                     <label value="&options.scope;"/>
-                                    <textbox multiline="true" id="id-scope" rows="7"/>
+                                    <html:textarea id="id-scope" rows="7"/>
                                 </row>
                                 <row>
                                     <spacer/>
@@ -80,13 +81,13 @@
         <tabpanel>
             <vbox flex="1" pack="start">
                 <groupbox>
-                    <caption label="&options.other.inspections;"/>
+                    <label class="header">&options.other.inspections;</label>
                     <checkbox id="id-checkcc" label="&options.check.cc;"/>
                     <checkbox id="id-checkdraft" label="&options.check.draft;"/>
                 </groupbox>
 
                 <groupbox>
-                    <caption label="&options.other.advanced;"/>
+                    <label class="header">&options.other.advanced;</label>
                     <checkbox id="id-showregexp" label="&options.show.regexp;"
                         oncommand="fidOptions.showRegExp();"/>
                     <label class="text-link indent" value="&options.show.regexp.description;"

@@ -12,4 +12,8 @@ Let the correspondence will be calm and pleasant ! :)
 
 ## Build and install
 
-This is classic Mozilla addond. Just pack source as zip archive and rename extension to xpi. Documentation available on Mozilla Developer Network, you can start reading from here: https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Your_first_WebExtension
+```
+make package
+```
+
+This is classic Mozilla add-on. Just pack source as zip archive and rename extension to xpi. Documentation available on Mozilla Developer Network, you can start reading from here: https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Your_first_WebExtension

@@ -10,7 +10,7 @@
   "description": "Selects an identity based on the recipients list when sending an email",
   "manifest_version": 2,
   "name": "Flexible Identity",
-  "version": "1.0.7",
+  "version": "1.0.8",
 
   "icons": {
     "32": "skin/icon.png"

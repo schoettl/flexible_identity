@@ -1,3 +1,7 @@
+# Current Status
+
+- 2020-11-20: I intend to upgrade this plugin to work with current Thunderbird. Because this plugin is much better than e.g. Identity Chooser ;) I hope I can give it a try this weekend.
+
 # Flexible Identity
 
 Sometimes it's important not to mix work and personal correspondence. Especially when Thunderbird is configured to use multiple email accounts simultaneously. Unfortunately, sometimes you recollect that would be worth to check what passes to the "from", after sending the letter. It's frustrating.

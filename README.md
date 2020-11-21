@@ -1,6 +1,11 @@
 # Current Status
 
-- 2020-11-20: I intend to upgrade this plugin to work with current Thunderbird. Because this plugin is much better than e.g. Identity Chooser ;) I hope I can give it a try this weekend.
+This add-on does not work anymore since Thunderbird 68 or so...
+
+See comments and user ratings here: https://addons.thunderbird.net/de/thunderbird/addon/flexible-identity/
+
+- **2020-11-21**: Now I can at least install the plugin again. Languages are not correct at all. Changes in API are a big TODO.
+- **2020-11-20**: I intend to upgrade this plugin to work with current Thunderbird. Because this plugin is much better than e.g. Identity Chooser ;) I hope I can give it a try this weekend.
 
 # Flexible Identity
 

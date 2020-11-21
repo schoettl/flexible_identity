@@ -15,12 +15,7 @@
   "icons": {
     "32": "skin/classic/icon.png"
   },
-
-  "legacy": {
-    "type": "xul",
-    "options": {
-      "page": "chrome://flexible_identity/content/options.xul",
-      "open_in_tab": true
-    }
+  "background": {
+    "scripts": ["background-script.js"]
   }
 }
